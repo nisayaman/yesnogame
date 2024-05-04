@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Questionnaire</title>
+</head>
+<body>
+    <h1>Multiple Choice Questionnaire</h1>
+    <form action="/submit" method="post">
+        <div>
+            <p>Question 1: Evet Hayır oyunu oynayacağız sadece bir kere evet veya hayır deme hakkın var. Hazır mısın?</p>
+            <input type="radio" id="q1a" name="answer1" value="evet">
+            <label for="q1a">a) evet</label><br>
+            <input type="radio" id="q1b" name="answer1" value="hayır">
+            <label for="q1b">b) hayır</label><br>
+            <input type="radio" id="q1c" name="answer1" value="emin değilim">
+            <label for="q1c">c) emin değilim</label><br>
+        </div>
+        <div>
+            <p>Question 2: Gay misin?</p>
+            <input type="radio" id="q2a" name="answer2" value="evet">
+            <label for="q2a">a) evet</label><br>
+            <input type="radio" id="q2b" name="answer2" value="hayır">
+            <label for="q2b">b) hayır</label><br>
+        </div>
+        <div>
+            <p>Question 3: Yalan mı söylüyorsun?</p>
+            <input type="radio" id="q3a" name="answer3" value="evet">
+            <label for="q3a">a) evet</label><br>
+            <input type="radio" id="q3b" name="answer3" value="hayır">
+            <label for="q3b">b) hayır</label><br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
